@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>survey form</title>
+        <link rel="stylesheet" href="css\index.css">
+    </head>
+    <body>
+        
+
+<h1 id="title"> violet evergarden survey</h1>
+<p id="description">survey about violet evergarden</p>
+<form id="survey-form">
+  <label for="name" id="name-label"> Name: </label>
+  <input id="name" type="text" placeholder="enter your name" required></input>
+<br>
+<label for="email" id="email-label"> Email: </label>
+<input id="email" type="email" placeholder="enter your email" required></input>
+<br>
+<label for="number" id="number-label"> Age: </label>
+<input id="number" type="number" placeholder="enter your age" min="12" max="50" required></input>
+ <br>
+<label for="dropdown" id="favorite-episode">name your favorite episode:</label>
+<select id="dropdown">
+  <option value="episode 1"> episode 1 </option>
+<option value="episode 2"> episode 2 </option>
+<option value="episode 3"> episode 3 </option>
+<option value="episode 4"> episode 4 </option>
+<option value="episode 5"> episode 5 </option>
+<option value="episode 6"> episode 6 </option>
+<option value="episode 7"> episode 7 </option>
+<option value="episode 8"> episode 8 </option>
+<option value="episode 9"> episode 9 </option>
+<option value="episode 10"> episode 10 </option>
+<option value="episode 11"> episode 11 </option>
+<option value="episode 12"> episode 12 </option>
+</select>
+<br>
+<label for="why" id="why"> why is it your favorite episode:</label>
+ <br>
+<br>
+<br>
+<input for="why" type="radio" id="made me cry" name="reason" value="made me cry">
+<label for="why"> made me cry </label>
+<br>
+<input for="why" type="radio" id="i had simillar expiriences" name="reason" value="i had simillar expiriences">
+<label for="why"> i had simillar expiriences </label>
+<br>
+<input for="why" type="radio" id="all of the above" name="reason" value="all of the above">
+<label for="why"> all of the above </label>
+<br>
+<br>
+<br>
+<label for="what do you like"> <b> what did you like about anime "violet evergarden" </b> </label>
+<br>
+<input for="what do you like" type="checkbox" id="animation" name="why did u like it" value="animation">
+<label for="what do you like"> animation </label>
+<br>
+<input for="what do you like" type="checkbox" id="good side characters" name='why did u like it' value="good side characters">
+<label for="what do you like"> good side characters </label>
+<br>
+<input for="what do you like" type="checkbox" id="good OST" name='why did u like it' value="good OST">
+<label for="what do you like"> good OST </label>
+<br>
+<input for="what do you like" type="checkbox" id="relatable story" name='why did u like it' value="relatable story">
+<label for="what do you like"> relatable story </label>
+<br>
+
+<label id="textarea"> any additional comments? </label>
+<br>
+<textarea id="textarea" name="instructions" rows="5" cols="50"> 
+</textarea>
+ <br>
+<br>
+<button id="submit" type="submit"> submit</button>
+</form>
+    </body>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</html>
